@@ -1,9 +1,9 @@
 def square_array(array)
-  i = 0
-  new_array = []
-  while array[i] do
-    new_array << (array[i] * array[i])
+  count = 0
+  suqared = []
+  while array[count] do
+    new_array << (array[count] * array[count])
     i += 1
   end
-  new_array
+  squared
 end
