@@ -1,6 +1,6 @@
 def square_array(array)
   count = 0
-  suqared = []
+  squared = []
   while array[count] do
     new_array << (array[count] * array[count])
     i += 1
